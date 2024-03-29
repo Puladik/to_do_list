@@ -35,7 +35,7 @@ def view():
 def completed(task_id):
         con = sqlite3.connect('todolist.db')
         cursor = con.cursor()
-        cursor.execute('UPDATE tasks SET completed = 1 WHERE id = ?', (task_id,))
+        cursor.execute('UPDATE tasks SET complited = 1 WHERE id = ?', (task_id,))
         con.commit()
         con.close()
 
