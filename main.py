@@ -1,5 +1,5 @@
 import sqlite3
-#with sqlite3.connect('todolist.db') as con: \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+#with sqlite3.connect('todolist.db') as con: \\\\\\\\\\\\\\\\\\\\\\\\\\\\
 def create():
         con = sqlite3.connect('todolist.db')
         cursor = con.cursor()
