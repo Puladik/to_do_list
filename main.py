@@ -73,7 +73,7 @@ def main():
         elif choice == "2":
             view()
         elif choice == "3":
-            task_id = int(input("Введите ID задачи для отметки как выполненной: "))
+            task_id = int(input("Введите номер задачи для отметки как выполненной: "))
             completed(task_id)
             print("Задача отмечена как выполненная!")
         elif choice == "4":
